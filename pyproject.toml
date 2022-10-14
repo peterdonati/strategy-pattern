@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "strategy-pattern"
+version = "0.1.0"
+description = ""
+authors = ["Peter Donati <p.donati11@gmail.com>"]
+readme = "README.md"
+packages = [{include = "strategy_pattern"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
