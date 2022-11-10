@@ -8,9 +8,11 @@ packages = [{include = "strategy_pattern"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-pylint = "^2.15.4"
 black = "^22.10.0"
 
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.15.5"
 
 [build-system]
 requires = ["poetry-core"]

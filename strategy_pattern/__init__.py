@@ -1,5 +1,12 @@
-from .string_manipulator import StringManipulator
-from .string_strategies import StringStrategy, Reverse, EveryOther, ToList
+"""A package for manipulating strings different ways."""
+
+from strategy_pattern.string_manipulator import StringManipulator
+from strategy_pattern.string_strategies import (
+    StringStrategy,
+    Reverse,
+    EveryOther,
+    ToList
+)
 
 
 __all__ = [
